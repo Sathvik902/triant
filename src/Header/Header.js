@@ -1,9 +1,11 @@
 import React from 'react'
 import './Header.css'
+
 import Image from '../Images/WHITE-RGB-TRIANT-LOGO-1.jpg'
 
 
 function Header() {
+
   return (
     <div className="container">
         {/* <div className = 'Logo'>
@@ -18,6 +20,7 @@ function Header() {
     <div className="navbar-nav ml-auto"margin-top='0px'>
     <div className = 'NavContents'>
             <img src={Image} alt='Logo'id='Logo'/>
+            
             <a className='toggle-button'href='/'>
                     <span className='bar'></span>
                     <span className='bar'></span>
@@ -25,10 +28,10 @@ function Header() {
                 </a>
             <div className='NavItems'>
                 <ul>
-                    <li><a className="nav-link" href="/">HOME </a></li>
-                    <li><a className="nav-link" href="/">PRODUCTS </a></li>
-                    <li><a className="nav-link" href="/">ABOUT </a></li>
-                    <li><a className="nav-link" href="/">CONTACT </a></li>
+                    <li><a className="nav-link active "id='heading' href="/">HOME </a></li>
+                    <li><a className="nav-link" href="/"id='heading'>PRODUCTS </a></li>
+                    <li><a className="nav-link" href="/"id='heading'>ABOUT </a></li>
+                    <li><a className="nav-link" href="/"id='heading'>CONTACT </a></li>
                 </ul>
             </div>    
     </div>

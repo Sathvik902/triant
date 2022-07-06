@@ -1,6 +1,12 @@
-import React from 'react'
+
 import './Footer.css'
 import Image from '../Images/cropped-Triant-Logo-1.png';
+
+import React, { Component } from 'react';
+
+
+
+
 
 function Footer() {
   return (
@@ -9,7 +15,7 @@ function Footer() {
   <div className="footer__addr">
     <h1 className="footer__logo">STAY IN TOUCH</h1>
         
-    <h4>CONTACT</h4><br/>
+    <h4>ADDRESS</h4><br/>
     
     <address>
     Level 18, DLF Cyber City, Building No. 5, Tower A, Phase 3, Gurugram - 122002
@@ -21,70 +27,20 @@ function Footer() {
   
   <ul className="footer__nav">
     <li className="nav__item">
-      <h2 className="nav__title">Media</h2>
+      <h2 className="nav__title">CONTACT</h2>
 
       <ul className="nav__ul">
         <li>
-          <a href="/">Online</a>
+          <a href="/">info@triantaluminium.com</a>
         </li>
 
         <li>
-          <a href="/">Print</a>
-        </li>
-            
-        <li>
-          <a href="/">Alternative Ads</a>
+          <a href="/">+91 78888-35707</a>
         </li>
       </ul>
     </li>
     
-    <li className="nav__item nav__item--extra">
-      <h2 className="nav__title">Technology</h2>
-      
-      <ul className="nav__ul nav__ul--extra">
-        <li>
-          <a href="/">Hardware Design</a>
-        </li>
-        
-        <li>
-          <a href="/">Software Design</a>
-        </li>
-        
-        <li>
-          <a href="/">Digital Signage</a>
-        </li>
-        
-        <li>
-          <a href="/">Automation</a>
-        </li>
-        
-        <li>
-          <a href="/">Artificial Intelligence</a>
-        </li>
-        
-        <li>
-          <a href="/">IoT</a>
-        </li>
-      </ul>
-    </li>
     
-    <li className="nav__item">
-      <h2 className="nav__title">Legal</h2>
-      
-      <ul className="nav__ul">
-        <li>
-          <a href="/">Privacy Policy</a>
-        </li>
-        
-        <li>
-          <a href="/">Terms of Use</a>
-        </li>
-        
-        <li>
-          <a href="/">Sitemap</a>
-        </li>
-      </ul>
-    </li>
   </ul>
   
   <div className="legal">

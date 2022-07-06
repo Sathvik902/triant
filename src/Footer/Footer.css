@@ -75,10 +75,7 @@
     margin: 0.6em 0;
     font-size: 1rem;
     padding: 0 1.3em;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+ 
 }
 
 .footer__btn:hover{

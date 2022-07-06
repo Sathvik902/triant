@@ -1,6 +1,6 @@
 
 import './Footer.css'
-import Image from '../Images/cropped-Triant-Logo-1.png';
+
 
 import React, { Component } from 'react';
 

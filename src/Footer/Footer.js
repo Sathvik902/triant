@@ -14,18 +14,15 @@ function Footer() {
       <footer className="footer">
   <div className="footer__addr">
     <h1 className="footer__logo">STAY IN TOUCH</h1>
-        
+    <a className="footer__btn" href="mailto:example@gmail.com">SUBSCRIBE</a>
+    <div>
     <h4>ADDRESS</h4><br/>
     
     <address>
     Level 18, DLF Cyber City, Building No. 5, Tower A, Phase 3, Gurugram - 122002
     <br/><br/>
-          
-      <a className="footer__btn" href="mailto:example@gmail.com">SUBSCRIBE</a>
     </address>
-  </div>
-  
-  <ul className="footer__nav">
+    <ul className="footer__nav">
     <li className="nav__item">
       <h2 className="nav__title">CONTACT</h2>
 
@@ -43,6 +40,13 @@ function Footer() {
     
   </ul>
   
+  
+  </div>
+  
+  
+  
+    </div>
+    
   <div className="legal">
     <p>&copy; 2019 Something. All rights reserved.</p>
     

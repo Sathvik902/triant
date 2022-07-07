@@ -44,6 +44,10 @@ function main_page() {
                 <button type="button" class="btn btn-secondary btn-lg">VIEW PRODUCTS</button>
             </div>
         </div>
+
+        <div className='slider'>
+            
+        </div>
     </div>
   )
 }

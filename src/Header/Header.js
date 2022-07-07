@@ -12,14 +12,16 @@ function Header() {
             <img src={Image} alt='Logo'/>
         </div> */}
         <div className='Navigation'>
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark" > 
         
   
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <div className="navbar-nav ml-auto"margin-top='0px'>
+      
+      <img src={Image} alt='Logo'id='Logo'/>
+
     <div className = 'NavContents'>
-            <img src={Image} alt='Logo'id='Logo'/>
             
             <a className='toggle-button'href='/'>
                     <span className='bar'></span>
@@ -32,6 +34,7 @@ function Header() {
                     <li><a className="nav-link" href="/"id='heading'>PRODUCTS </a></li>
                     <li><a className="nav-link" href="/"id='heading'>ABOUT </a></li>
                     <li><a className="nav-link" href="/"id='heading'>CONTACT </a></li>
+                    
                 </ul>
             </div>    
     </div>

@@ -1,14 +1,29 @@
-*{
-  margin:0 0;
-  padding-left:0;
+/* body{
+  justify-content: center;
+  width: 100%;
+} */
+.container{
+  width: 100%;
+  padding:0;
+  margin: 0;
+  
+}
+.collapse{
+  background-color: black;
+}
+
+.navbar-nav{
+  width:100%;
 }
 
 #Logo{
+  float: inline-start;
   max-width: 20%;
-  margin-left: 10%;
   height: 60% !important;
-  margin-top: 30px;
   display: flex;
+  float: left;
+
+  
 }
 
 
@@ -19,21 +34,19 @@
 
 .NavItems{
   
-  display: flex !important;
-  text-align: right;
-  margin-left: 20%;
+  /* display: flex !important; */
+  text-align: center;
   margin-bottom:10%;
+  /* padding-left: 20%; */
   position: relative;
   top: 4rem;
 }
 .NavContents{
   display: flex;
+  position: relative;
   background-color: black;
-  width: 100%;
-  height:60%;
-  overflow-x:hidden;
-  
-  
+  height:40%;
+  left: 30%;
 
 }
 a {
@@ -42,6 +55,7 @@ a {
   text-decoration: none;
   color: white;
   font-size: larger;
+  width:100%;
 }
 
 a:after {
@@ -92,16 +106,23 @@ ul{
   .toggle-button{
     display: flex;
   }
+  .collapse{
+    background-color: black;
+  }
   .nav-link{
     display: none;
     width: 100%;
   }
+  .container{
+    background-color: black;
+  }
 
   .NavContents{
-    flex-direction: column;
-    align-items: flex-start;
-    overflow-y: hidden;
+    display: flex;
+    position: relative;
+    height:40%;
   }
+ 
   
   .NavItems ul{
     position:relative;
@@ -126,3 +147,10 @@ ul{
     display: flex;
   }
 }
+
+/* .navbar{
+  margin: 0px;
+  width: 100%;;
+  border-width: 0;
+} */
+

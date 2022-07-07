@@ -15,6 +15,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-size: 14px;
+    color: BLACK;
     background-color: #f4f4f4;
     align-items: start;
     min-height: 100vh;
@@ -24,7 +25,7 @@
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: #2f2f2f;
+    color: black;
     background-color: #fff;
     border-top: 1px solid #e5e5e5;
   }
@@ -36,6 +37,8 @@
   .footer__addr {
     margin-right: 1.25em;
     margin-bottom: 2em;
+    align-items: center;
+    text-align: center;
   }
   
   .footer__logo {
@@ -60,27 +63,31 @@
   
   .footer address {
     font-style: normal;
-    color: black;
+    color: white;
   }
   
   .footer__btn {
-    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     height: 36px;
     max-width: max-content;
     background-color: black;
     color: white;
-    line-height: 0;
-    margin: 0.6em 0;
+    margin: 0.6em 0.6em 0;
     font-size: 1rem;
-    padding: 0 1.3em;
+    padding: 1.3em 1.3em; 
  
 }
 
 .footer__btn:hover{
   background-color: yellow;
   color: black;
+  transform: transition 1s ease-in-out;
+  -webkit-transform: transition 1s ease-in-out;
+  -moz-transform: transition 1s ease-in-out;
+  -ms-transform: transition 1s ease-in-out;
+  -o-transform: transition 1s ease-in-out;
 }
 
   .footer ul {
@@ -107,22 +114,23 @@
   }
   
   .nav__ul a {
-    color: black;
-    font-weight:600;
-    
-    
-    
+    color: white;
+    font-weight:600; 
   }
   
   .nav__ul--extra {
+    display: grid;
+    flex-direction: row;
     column-count: 2;
     column-gap: 1.25em;
+    text-align: center;
   }
   
   .legal {
-    display: flex;
+    position: relative;
     flex-wrap: wrap;
-    color:black;
+    color:white;
+    align-items: center;
   }
     
   .legal__links {
@@ -131,7 +139,7 @@
   }
   
   .heart {
-    color: black;
+    color: white;
   }
 
 

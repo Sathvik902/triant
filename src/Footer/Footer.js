@@ -24,20 +24,12 @@ function Footer() {
     </address>
     <ul className="footer__nav">
     <li className="nav__item">
-      <h2 className="nav__title">CONTACT</h2>
-
-      <ul className="nav__ul">
-        <li>
-          <a href="/">info@triantaluminium.com</a>
-        </li>
-
-        <li>
-          <a href="/">+91 78888-35707</a>
-        </li>
-      </ul>
+      <h1 className="nav__title">CONTACT</h1>
+      <h2>MAIL US: info@triantaluminium.com</h2>
+      <h2>CONTACT US: +91 78888-35707 </h2>
+      <br/>
+      <p>&copy; 2019 Something. All rights reserved.</p>
     </li>
-    
-    
   </ul>
   
   
@@ -48,10 +40,7 @@ function Footer() {
     </div>
     
   <div className="legal">
-    <p>&copy; 2019 Something. All rights reserved.</p>
     
-    <div className="legal__links">
-    </div>
   </div>
 </footer>
     </div>

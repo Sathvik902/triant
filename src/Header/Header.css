@@ -1,15 +1,52 @@
 .navbar{
-    color:white !important;
     background-color: black !important;
-    
-    height:300px !important;
+    margin-bottom: 0;
+    /* height:300px !important; */
 }
 
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+.navbar-toggler-icon{
+    color: white;
+    background: #fff;
+}
 
 .nav-link{
-    font-size: larger;
-    padding-right: 20px;
+    font-size: 2rem;
+    color:white;
+    
 }
+
+
+.navImg{
+    position: relative;
+    width: 20%;
+    left:10%;
+}
+.navbar a{
+    color: white !important;
+    padding-right: 23px !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color:yellow !important;
+}
+.btn-secondary{
+    color:black;
+    background: white;
+}
+
+@media (max-width: 600px) {
+    
+    .nav-item{
+        padding: 10px;
+        color:white;
+        
+    }
+    .collapse{
+        padding-left: 200px;
+    }
+    
+  }
+

@@ -12,13 +12,106 @@ function Product() {
         <div className='Home_container'>
         <div className='main_name'>
         <h1>PRODUCT</h1>
-            <p>
-                We guarantee the highest quality of workmanship and service across a diverse range of product offerings.
-            </p>
         </div>
         <img src={bgImg} alt='bg-img' className='bgImg'/>
         <div className='container_space shadow-lg p-3 mb-5 bg-white rounded'>
             
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={window} className='div_imgs' alt='window'/>
+                    <h1>WINDOWS</h1>
+                    <p>
+                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                    </p>
+                </div>
+                <div className='col-md-6'>
+                <img src={door} alt='doors' className='div_imgs'/>
+                    <h1>DOORS</h1>
+                    <p>
+                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                    </p>
+                </div>
+            </div>
             <div className='row'>
                 <div className='col-md-6'>
                     <img src={window} className='div_imgs' alt='window'/>

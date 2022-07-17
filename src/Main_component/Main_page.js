@@ -11,6 +11,7 @@ function main_page() {
   return (
     <div className='Home_container'>
         <div className='main_name'>
+        
         <h1>TRIANT ALUMINIUM</h1>
             <p>
                 We guarantee the highest quality of workmanship and service across a diverse range of product offerings.
@@ -50,13 +51,55 @@ function main_page() {
                 Aluminium Sliding and Casement Gates
                 </p>
                 </div>
+            </div>
+            <div className='row'>
+            <div className='col-md-12'>
+            <button type="button" class="btn btn-lg btn-outline-dark btn_coustom">VIEW PRODUCTS</button>
+            </div>
+            </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-3'>
+                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                <img className="d-block w-100" src={door} alt="First slide"/>
+                </div>
+                <div className="carousel-item">
+                <img className="d-block w-100" src={door} alt="Second slide"/>
+                </div>
+                <div className="carousel-item">
+                <img className="d-block w-100" src={door} alt="Third slide"/>
+                </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+            </a>
+            </div>
+            </div>
+            <div className='col-md-8'>
+                <h1 id ="Future">THE FUTURE IS NOW</h1>
                 <br/>
-                <button type="button" class="btn btn-secondary btn-lg">VIEW PRODUCTS</button>
+                <hr id='hr'/>
+                <p id ='disc_Future'>Introducing the ground-breaking Thermal-Break Technology, our systems are unmatched in energy efficiency and performance. Our comprehensive product portfolio consists of high-quality doors, windows, facades, skylights, wall claddings, railings and other architectural products.</p>
+                <br/>
+                <button type="button" class="btn btn-lg btn-outline-dark btn_coustom">Learn More</button>
             </div>
         </div>
+        <div className='row Futured_Products'>
+            <div className='col-md-3'>
 
-        <div className='slider'>
-            
+            </div>
         </div>
     </div>
   )

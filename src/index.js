@@ -5,14 +5,33 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header/Header';
 import Footer from './Footer/Footer'
 import Main_page from './Main_component/Main_page';
+import Product from './Main_component/product';
+import Contact from './Main_component/contact';
+import About from './Main_component/About';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import{
+  Routes,BrowserRouter as Router,Route
+} from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
+
+    <Router>
+    <div>
     <Header/>
-    <Main_page/>
+    <Routes>
+      <Route path='/' element={<Main_page/>}/>
+      <Route path='/product' element={<Product/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/about' element={<About/>}/>
+    
+    </Routes>
     <Footer/>
+    </div>
+    </Router>
+    
   </React.StrictMode>
 );
 

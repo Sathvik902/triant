@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import '../Header/Header.css'
 import img from '../Images/WHITE-RGB-TRIANT-LOGO-1.jpg'
 
@@ -15,16 +15,16 @@ function Header() {
     <ul className="navbar-nav ml-auto">
     
     <li className="nav-item active">
-      <a className="nav-link" href="/">Home<span className="sr-only">(current)</span></a>
+      <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="/">PRODUCTS</a>
+      <Link className="nav-link" to="/product">PRODUCTS</Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="/">ABOUT</a>
+      <Link className="nav-link" to="/about">ABOUT</Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="/">CONTACT</a>
+      <Link className="nav-link" to="/contact">CONTACT</Link>
     </li> 
   </ul>  
 </nav>

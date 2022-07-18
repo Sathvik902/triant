@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .main_name{
@@ -41,14 +42,15 @@ body{
 }
 
 .container_space{
-    position:relative;
-    top:60%;
+    position: absolute;
+    top:80%;
     display: grid;
     z-index: 4;
-    width:50%;
+    width:60%;
+    left:20%;
     /* height:20%; */
-    left:25%;
-    top:80%;
+    /* left:25%; */
+    /* top:80%; */
     
 }
 
@@ -119,3 +121,17 @@ body{
     background-color: black;
     height:40%;
 }
+
+.slider_content{
+    
+      
+    margin-top: 40% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [className*="slider_content"] {
+      position: relative;
+      padding-top:90%;
+    }
+  }

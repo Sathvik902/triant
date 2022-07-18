@@ -58,7 +58,7 @@ function main_page() {
             </div>
             </div>
                     </div>
-                    <div className='row'>
+                    <div className='row slider_content'>
                         <div className='col-md-3'>
                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -71,10 +71,10 @@ function main_page() {
                 <img className="d-block w-100" src={door} alt="First slide"/>
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src={door} alt="Second slide"/>
+                <img className="d-block w-100" src={window} alt="Second slide"/>
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src={door} alt="Third slide"/>
+                <img className="d-block w-100" src={curtain} alt="Third slide"/>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,6 +98,21 @@ function main_page() {
         </div>
         <div className='row Futured_Products'>
             <div className='col-md-3'>
+
+            </div>
+        </div>
+        <div className='row contact_Links'>
+            <div className='col-md-12'>
+                
+            </div>
+        </div>
+        <div className='row contact_Links'>
+            <div className='col-md-12'>
+
+            </div>
+        </div>
+        <div className='row contact_Links'>
+            <div className='col-md-12'>
 
             </div>
         </div>

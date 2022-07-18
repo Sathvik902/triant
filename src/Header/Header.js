@@ -15,7 +15,7 @@ function Header() {
     <ul className="navbar-nav ml-auto">
     
     <li className="nav-item active">
-      <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
+      <Link className="nav-link" to="/">HOME<span className="sr-only">(current)</span></Link>
     </li>
     <li className="nav-item">
       <Link className="nav-link" to="/product">PRODUCTS</Link>

@@ -16,17 +16,6 @@ function Footer() {
   
     <div className="row">
 
-      <div className="col-md-6 mt-md-0 mt-3">
-
-       
-        <h5 className="text-uppercase">STAY IN TOUCH</h5>
-        <p>Subscribe to our newsletter to stay updated about new products.</p>
-        <div class="form-group">
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
-        <button type="submit" size={30} class="btn btn-primary">SUBSCRIBE</button>
-      </div>
-      </div>
-
       <hr className="clearfix w-100 d-md-none pb-3"/>
 
       <div className="col-md-3 mb-md-0 mb-3">
@@ -41,6 +30,17 @@ function Footer() {
           </li>
         </ul>
 
+      </div>
+      <div className="col-md-6 mt-md-0 mt-3">
+
+       
+        <h5 className="text-uppercase">STAY IN TOUCH</h5>
+        <p>Subscribe to our newsletter to stay updated about new products.</p>
+        <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+        <br/>
+        <button type="submit" size={30} class="btn btn-outline-dark">SUBSCRIBE</button>
+      </div>
       </div>
       <div className="col-md-3 mb-md-0 mb-3">
         <h5 className="text-uppercase">ADDRESS</h5>

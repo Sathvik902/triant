@@ -1,5 +1,6 @@
 import React from 'react'
-import bgImg from '../Images/building-1834709_1920-1.jpg'
+import '../Main_component/main_page.css'
+import bgImg from '../Images/building-491294_1920.jpg'
 import window from "../Images/3-copy.png"
 import door from "../Images/2-copy.png"
 import curtain from "../Images/7-copy.1.png"

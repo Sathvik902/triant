@@ -23,7 +23,7 @@ function Footer() {
 
         <ul className="list-unstyled">
           <li>
-            <a href="/!"className='footer_links'><FontAwesomeIcon icon="fa-solid fa-phone" />+91 78888-35707</a>
+            <a href="/!"className='footer_links'><ion-icon name="call">+91 78888-35707</ion-icon></a>
           </li>
           <li>
             <a href="/!"className='footer_links'>info@triantaluminium.com</a>

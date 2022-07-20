@@ -1,7 +1,12 @@
 import React from 'react'
 import './main_page.css'
 import bgImg from '../Images/building-1834709_1920-1.jpg'
+import Img1 from '../Images/G135A-30.jpg'
+import Img2 from '../Images/G135A-3.jpg'
+import Img3 from '../Images/ZD81-3.jpg'
+import Img4 from '../Images/G135A-30.jpg'
 import window from "../Images/3-copy.png"
+// "C:\Users\Sathvik K\OneDrive\Desktop\Triant_website1\src\Images\G135A-3.jpg"
 import door from "../Images/2-copy.png"
 import curtain from "../Images/7-copy.1.png"
 import gates from "../Images/5-copy.1.png"
@@ -54,7 +59,7 @@ function main_page() {
             </div>
             <div className='row'>
             <div className='col-md-12'>
-            <button type="button" class="btn btn-lg btn-outline-dark btn_coustom">VIEW PRODUCTS</button>
+            <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW PRODUCTS</button>
             </div>
             </div>
                     </div>
@@ -93,30 +98,37 @@ function main_page() {
                 <hr id='hr'/>
                 <p id ='disc_Future'>Introducing the ground-breaking Thermal-Break Technology, our systems are unmatched in energy efficiency and performance. Our comprehensive product portfolio consists of high-quality doors, windows, facades, skylights, wall claddings, railings and other architectural products.</p>
                 <br/>
-                <button type="button" class="btn btn-lg btn-outline-dark btn_coustom">Learn More</button>
+                <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">Learn More</button>
             </div>
-        </div>
-        <div className='row Futured_Products'>
-            <div className='col-md-3'>
-
+            <div className="container text-center">
+            <h1 id='futured_products'>FUTURED PRODUCTS</h1>
+            <hr id='futured_hr'/>
             </div>
-        </div>
-        <div className='row contact_Links'>
-            <div className='col-md-12'>
-                
-            </div>
-        </div>
-        <div className='row contact_Links'>
-            <div className='col-md-12'>
-
-            </div>
-        </div>
-        <div className='row contact_Links'>
-            <div className='col-md-12'>
-
-            </div>
-        </div>
+            <div className="container">
+  <div className="row row1">
+    <div className="col-md">
+    
+      <img src={Img1} className='Imgs'/>
     </div>
+    <div className="col-md">
+        <a href='#'/>
+    <img src={Img2} className='Imgs'/>
+    </div>
+    <div className="col-md">
+    <a href='#'/>
+    <img src={Img3} className='Imgs'/>
+    </div>
+    <div className="col-md">
+    <a href='#'/>
+    <img src={Img4} className='Imgs'/>
+    </div>
+  </div>
+  <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW ALL PRODUCTS</button>
+</div>
+</div>
+          
+    </div>
+
   )
 }
 

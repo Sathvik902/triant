@@ -16,8 +16,6 @@ import{
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-
     <Router>
     <div>
     <Header/>
@@ -26,7 +24,6 @@ root.render(
       <Route path='/product' element={<Product/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/about' element={<About/>}/>
-    
     </Routes>
     <Footer/>
     </div>

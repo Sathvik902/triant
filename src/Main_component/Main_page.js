@@ -6,6 +6,7 @@ import Img2 from '../Images/G135A-3.jpg'
 import Img3 from '../Images/ZD81-3.jpg'
 import Img4 from '../Images/G135A-30.jpg'
 import window from "../Images/3-copy.png"
+import FImg from "../Images/triant-aluminium-fixed-windows.jpg"
 // "C:\Users\Sathvik K\OneDrive\Desktop\Triant_website1\src\Images\G135A-3.jpg"
 import door from "../Images/2-copy.png"
 import curtain from "../Images/7-copy.1.png"
@@ -57,13 +58,13 @@ function main_page() {
                 </p>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
             <div className='col-md-12'>
             <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW PRODUCTS</button>
             </div>
             </div>
                     </div>
-                    <div className='row slider_content'>
+                    <div className='row slider_content '>
                         <div className='col-md-3'>
                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -92,7 +93,7 @@ function main_page() {
             </a>
             </div>
             </div>
-            <div className='col-md-8'>
+            <div className='col-md-6'>
                 <h1 id ="Future">THE FUTURE IS NOW</h1>
                 <br/>
                 <hr id='hr'/>
@@ -123,8 +124,25 @@ function main_page() {
     <img src={Img4} className='Imgs'/>
     </div>
   </div>
+  <br/>
+  <br/>
   <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW ALL PRODUCTS</button>
 </div>
+</div>
+<div className='row push'>
+    <div className='col-md-6 '>
+        <h1>OUR VISION</h1>
+        <hr id='futured_hr'/>
+        <div className='padding_p'>
+        <p>We intend to work collaboratively with architects, builders and end consumers to create spaces with better functionality and design aesthetics, while providing the best solution at a cost-effective price.</p>
+        <br/>
+        <br/>
+        <button type="button" className="btn btn-lg btn-outline-dark btn_coustom">LEARN MORE</button>
+        </div>
+    </div>
+    <div className='col-md-6'>
+        <img src={FImg} className='FImg'/>
+    </div>
 </div>
           
     </div>
